@@ -1,0 +1,95 @@
+:root {
+ --text-primary: #F6E9B2;
+ --text-regular: #F1F3E0;
+}
+
+html * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #182C25;
+}
+
+h1, p, span, a {
+    font-family: 'Playfair Display', serif;   
+    color: var(--text-regular);
+    letter-spacing: 0.6px;
+    line-height: calc(1ex / 0.32);
+    font-size: 1rem;
+}
+
+h1 {
+    color: var(--text-primary);
+    font-size: 2.5rem;
+    text-shadow: 0px 5px 14px #1C352D, 0px 5px 14px #1C352D, 0px 5px 14px #1C352D;
+}
+
+p, span {
+    font-size: 1.06rem;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+a {
+    display: inline-block;
+    color: var(--text-primary);
+    font-family: 'Playfair Display', serif;
+    font-size: 0.9rem;
+    margin-bottom: 6px;
+}
+
+a::before {
+    content: "🖌️";
+    display: inline-block;
+}
+
+b {
+    color: var(--text-primary);
+}
+
+.letter-container {
+    max-width: 600px;
+    margin: 0 auto !important;
+}
+
+.letter-header {
+    position: relative;
+    padding: 20px 0;
+    max-height: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.letter-header img {
+    position: absolute;
+    z-index: -0;
+    top: 130px;
+}
+
+.letter-header > .letter-container{
+    z-index: 1;
+}
+
+.letter-body {
+    margin: 80px 0;
+    text-justify:justify;
+    padding: 0 20px;
+}
+
+span {
+    display: inline-block;
+    margin: 30px 0;
+}
+
+@media (width >= 720px) {
+    body {
+        overflow: hidden;
+    }
+}
