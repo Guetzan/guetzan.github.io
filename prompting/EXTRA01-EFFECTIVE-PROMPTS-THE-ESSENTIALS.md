@@ -61,7 +61,7 @@ Dependendo do seu objetivo — seja resumir um documento, redigir um e-mail ou a
 | **Instrução Direta** | Use comandos diretos com verbos como "escreva", "explique" ou "compare". | *"Escreva um resumo executivo deste memorando em menos de 100 palavras."* |
 | **Baseado em Papel (Persona)** | Peça à IA para assumir uma persona ou ponto de vista específico. | *"Você é um professor de MBA preparando o roteiro de uma aula..."* |
 | **Contextual** | Inclua histórico ou enquadramento relevante antes de fazer a pergunta. | *"Este texto é para um curso de graduação. Reescreva-o em uma linguagem mais simples."* |
-| **Meta Prompt / System Prompt** | Instruções de nível de sistema que definem o comportamento e o tom da IA antes da entrada do usuário. | *"Responda sempre de forma formal e cite fontes reais. Nunca invente dados."* |
+| **Meta Prompt / System Prompt** | Instruções de nível de sistema que definem o comportamento e o tom da IA antes da entrada do usuário. Normalmente, você não verá nem escreverá esses elementos, a menos que esteja criando sua própria ferramenta de IA. | *"Responda sempre de forma formal e cite fontes reais. Nunca invente dados."* |
 
 ### 3. Construa Sobre a Conversa
 
