@@ -147,9 +147,7 @@ LLMs também são bastante eficazes na geração de código. Veja dois exemplos:
 *Prompt:*
 
 ```text
-/*
 Peça o nome do usuário e diga "Olá"
-*/
 ```
 
 *Saída:*
