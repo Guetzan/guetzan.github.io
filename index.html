@@ -1,38 +1,33 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>C. David</title>
-    <style>
-        html * {
-            padding: 0;
-            margin: 0;
-        }
-
-        .container {
-            max-width: 500px;
-            margin: 40px auto;
-        }
-
-        P {
-            margin: 20px 0;
-        }
-        
-        span {
-            display: inline-block;
-            margin: 10px 0;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>Guia de Prompt Engineering</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  
+  <!-- Tema base do Docsify (Estilo Vue) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  
+  <!-- Seu arquivo CSS customizado da pasta /css -->
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="container">
-        <h2>C. David, 22 anos</h2>
-        <h4>Aspirante a Desenvolvimento/Engenharia de Software</h4>
-        <span>São José dos Campos, SP</span>
-        <br><a href="http://github.com/guetzan" target="_blank" rel="noopener noreferrer">github</a>
-        <p>Entusiasta de tecnologia desde a infância. Atualmente estudando Java com foco no mercado de trabalho, 
-        porém com curiosidade em explorar o mundo do "low level programming" por hobby.</p>
-    </div>
+  <div id="app">Carregando documentação...</div>
+
+  <script>
+    window.$docsify = {
+      name: 'Guia de Prompts',
+      repo: '', // Pode colocar o link do seu GitHub aqui se quiser
+      loadSidebar: true, // Habilita o menu lateral via _sidebar.md
+      homepage: 'prompting/01-BASICS_OF_PROMPTING.md', // Define a primeira página inicial
+      subMaxLevel: 2, // Subtítulos (##) aparecem automaticamente no menu
+      auto2top: true, // Rola para o topo ao trocar de tópico
+      themeColor: '#2563eb' // Cor do destaque
+    }
+  </script>
+
+  <!-- Script do Docsify -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
 </body>
 </html>
